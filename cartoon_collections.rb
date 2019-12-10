@@ -5,7 +5,7 @@ def roll_call_dwarves (array)
 end
 
 def summon_captain_planet (calls)
-  calls.map do |element|
+  puts calls.map do |element|
     element.titlize + "!"
   end
 end
