@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet (calls)
   calls.map do |element|
-    element.titleize + "!"
+    element.titlize + "!"
   end
 end
 
