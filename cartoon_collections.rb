@@ -17,7 +17,10 @@ def long_planeteer_calls (calls)
   false
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+def find_the_cheese (array)
+  cheese = ["cheddar", "gouda", "camembert"]
+  cheese.each do |delish|
+    return delish if array.include?(delish)
+  end
+  nil
 end
